@@ -9,7 +9,7 @@ import random
 def smallest_finder(number_list):
     # This function finds the smallest number of an array
 
-    smallest = number_list[9]
+    smallest = number_list[0]
 
     for loop_item in number_list:
         if loop_item < smallest:
